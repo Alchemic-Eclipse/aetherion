@@ -1,4 +1,4 @@
-# Prerequisites
+.idea/
 *.d
 
 # Compiled Object files
@@ -43,6 +43,10 @@ build/
 Build/
 build-*/
 
+# Crucial for CLion:
+cmake-build-*/
+_deps/
+
 # CMake generated files
 CMakeFiles/
 CMakeCache.txt
@@ -66,3 +70,13 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Code coverage & profiling (Useful for CLion)
+*.gcno
+*.gcda
+*.gcov
+callgrind.out.*
+
+# Operating Systems
+.DS_Store
+Thumbs.db
