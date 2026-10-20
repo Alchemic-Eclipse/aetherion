@@ -1,0 +1,8 @@
+//
+// Created by Light on 20/10/26.
+//
+
+#ifndef AETHERION_HYDROGENSTATE_H
+#define AETHERION_HYDROGENSTATE_H
+
+#endif //AETHERION_HYDROGENSTATE_H
